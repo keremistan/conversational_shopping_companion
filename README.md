@@ -1,0 +1,1 @@
+I build a conversational shopping platform where you find the product you are looking for within a conversational UX.
