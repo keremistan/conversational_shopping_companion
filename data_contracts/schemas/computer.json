@@ -1,0 +1,10 @@
+{
+    "id": "string",
+    "name": "string",
+    "price": "float",
+    "brand": "string",
+    "category": "string",
+    "description": "string",
+    "sku": "int",
+    "merchant": "string"
+}

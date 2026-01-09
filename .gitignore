@@ -4,3 +4,7 @@ include/
 lib/
 pyvenv.cfg
 
+.env
+
+.terraform
+*.tfstate
