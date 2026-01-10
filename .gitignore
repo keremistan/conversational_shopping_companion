@@ -4,7 +4,11 @@ include/
 lib/
 pyvenv.cfg
 
+.DS_Store
+
 .env
 
 .terraform
 *.tfstate
+
+*.jsonl
