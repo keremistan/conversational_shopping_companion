@@ -10,5 +10,6 @@ pyvenv.cfg
 
 .terraform
 *.tfstate
+*.tfstate.backup
 
 *.jsonl
