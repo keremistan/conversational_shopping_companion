@@ -1,10 +1,59 @@
 {
-    "id": "string",
-    "name": "string",
-    "price": "float",
-    "brand": "string",
-    "category": "string",
-    "description": "string",
-    "sku": "int",
-    "merchant": "string"
+    "$schema": "https://json-schema.org/draft-07/schema#",
+    "$id": "computer",
+    "type": "object",
+    "description": "This defines the schema of computer product",
+    "version": "1.0.0",
+    "properties": {
+        "id": {
+            "type": "string",
+            "description": "Unique identifier of the product"
+        },
+        "name": {
+            "type": "string",
+            "description": "Name of the product"
+        },
+        "price": {
+            "type": "number",
+            "description": "Price of the product",
+            "minimum": 0
+        },
+        "currency": {
+            "type": "string",
+            "enum": [
+                "USD",
+                "EUR"
+            ]
+        },
+        "brand": {
+            "type": "string",
+            "description": "Brand of the product"
+        },
+        "category": {
+            "type": "string",
+            "description": "Category of the product"
+        },
+        "description": {
+            "type": "string",
+            "description": "Description of the product"
+        },
+        "sku": {
+            "type": "string",
+            "description": "Stock keeping unit of the product"
+        },
+        "merchant": {
+            "type": "string",
+            "description": "The seller of the product"
+        }
+    },
+    "required": [
+        "id",
+        "name",
+        "price",
+        "currency",
+        "brand",
+        "description",
+        "sku",
+        "merchant"
+    ]
 }
